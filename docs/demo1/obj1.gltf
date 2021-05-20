@@ -55946,13 +55946,13 @@
   ],
   "images": [
     {
-      "uri": "textures/Triceratops_baseColor.png"
+      "uri": "Triceratops_baseColor.png"
     },
     {
-      "uri": "textures/Triceratops_metallicRoughness.png"
+      "uri": "Triceratops_metallicRoughness.png"
     },
     {
-      "uri": "textures/Triceratops_normal.png"
+      "uri": "Triceratops_normal.png"
     }
   ],
   "materials": [
