@@ -126,10 +126,10 @@ AFRAME.registerComponent('model-viewer', {
   
       inputEl.value = inputDefaultValue;
   
-      uploadContainerEl.appendChild(inputEl);
-      uploadContainerEl.appendChild(submitButtonEl);
+    //  uploadContainerEl.appendChild(inputEl);
+      //uploadContainerEl.appendChild(submitButtonEl);
   
-      this.el.sceneEl.appendChild(uploadContainerEl);
+     // this.el.sceneEl.appendChild(uploadContainerEl);
     },
   
     update: function () {
