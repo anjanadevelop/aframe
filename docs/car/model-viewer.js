@@ -39,7 +39,7 @@ AFRAME.registerComponent('model-viewer', {
       this.initEntities();
       this.initBackground();
   
-      if (this.data.uploadUIEnabled) { this.initUploadInput(); }
+    if (this.data.uploadUIEnabled) { /*this.initUploadInput();*/ }
   
       // Disable context menu on canvas when pressing mouse right button;
       this.el.sceneEl.canvas.oncontextmenu = function (evt) { evt.preventDefault(); };
