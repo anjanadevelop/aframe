@@ -37,7 +37,7 @@ a, a:hover, a:visited {
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
 h1::after {
-  content: ' V 2.0';
+  content: 'Coming Soon';
   font-size: 12px;
   position:absolute;
   top: 3px;
@@ -45,7 +45,7 @@ h1::after {
   font-weight: 400;
 }
 h2::after {
-  content: '2';
+  content: '';
   font-size: 12px;
   position:absolute;
   top: 14px;
