@@ -37,7 +37,7 @@ a, a:hover, a:visited {
   -webkit-touch-callout: none; /* Disable Android and iOS callouts*/
 }
 h1::after {
-  content: 'Coming Soon';
+  content: 'India';
   font-size: 12px;
   position:absolute;
   top: 3px;
