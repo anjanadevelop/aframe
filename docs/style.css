@@ -55,7 +55,7 @@ canvas {
   padding: 10px 30px;
 }
 a, a:hover, a:visited {
-  color: red;
+ 
   text-decoration: none;
 } 
 .disable-selection {
