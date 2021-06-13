@@ -18,7 +18,7 @@ var scene = new THREE.Scene();
 var cameraRange = 3;
 
 // var setcolor = 0x000000;
-var setcolor = 0x212121;
+var setcolor = 0x263238;
 
 scene.background = new THREE.Color(setcolor)
 scene.fog = new THREE.Fog(setcolor, 2.5, 3.5);
@@ -107,7 +107,7 @@ light.shadow.mapSize.width = 10000;
 light.shadow.mapSize.height = light.shadow.mapSize.width;
 light.penumbra = 0.5;
 
-var lightBack = new THREE.PointLight(0x0FFFFF, 1);
+var lightBack = new THREE.PointLight(0x880E4F, 1);
 lightBack.position.set(0, -3, -1);
 
 scene.add(sceneGruop);
@@ -116,7 +116,7 @@ scene.add(lightBack);
 
 var rectSize = 2;
 var intensity = 100;
-var rectLight = new THREE.RectAreaLight( 0x0FFFFF, intensity,  rectSize, rectSize );
+var rectLight = new THREE.RectAreaLight( 0x880E4F, intensity,  rectSize, rectSize );
 rectLight.position.set( 0, 0, 1 );
 rectLight.lookAt( 0, 0, 0 );
 scene.add( rectLight )
