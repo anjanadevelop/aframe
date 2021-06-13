@@ -1,9 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
 body {
   margin: 0;
   text-align: center;
   background-color: black;
   cursor: crosshair;
+  font-family: 'Montserrat', sans-serif;
 }
+.link
+{
+  color:#fff;
+  font-size: 16px;
+}
+.link:hover
+{
+  color:#fff;
+  font-size: 16px;
+}
+
 canvas {
   display: block;
   width: 100%;

@@ -17,7 +17,8 @@ var camera = new THREE.PerspectiveCamera( 35, window.innerWidth / window.innerHe
 var scene = new THREE.Scene();
 var cameraRange = 3;
 
-var setcolor = 0x000000;
+// var setcolor = 0x000000;
+var setcolor = 0x212121;
 
 scene.background = new THREE.Color(setcolor)
 scene.fog = new THREE.Fog(setcolor, 2.5, 3.5);
